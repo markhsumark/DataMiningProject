@@ -42,10 +42,10 @@ def sumUpYearly(df):
     
 
 # Main
-L2J_df = getDF("data/Location2Job-1.csv")
-PPI2J_df = getDF("data/PPinfo2Job-1.csv")
+L2J_df = getDF("row_data/Location2Job-2.csv")
+PPI2J_df = getDF("row_data/PPinfo2Job-2.csv")
 
-job_targets = ['民意代表_主管及經理人員','專業人員','技術員及助理專業人員','事務支援人員','服務及銷售工作人員', '農_林_漁_牧業生產人員', '技藝有關工作人員', '機械設備操作及組裝人員', '基層技術工及勞力工', '其他']
+job_targets = ['民意代表_主管及經理人員','專業人員','技術員及助理專業人員','事務支援人員','服務及銷售工作人員', '農_林_漁_牧業生產人員', '技藝有關工作人員', '機械設備操作及組裝人員', '基層技術工及勞力工']
 
 L2J_targets = ['縣市']
 PPI2J_targets = ['年齡','性別','教育程度','個人每月收入']
